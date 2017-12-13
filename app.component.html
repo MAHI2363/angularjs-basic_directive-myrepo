@@ -1,3 +1,32 @@
 <input type="text" ng-model="inputval">
 
-<app-highlight></app-highlight>
+{{inputval}}
+<app-highlight 
+        my-val= "inputval"
+        my-title="Custom Value"
+>
+</app-highlight>
+
+<div my-scroll="30" id="123" class="css">
+  
+    This is first test
+    <br/>
+      
+    This is first test
+    <br/>
+      
+    This is first test
+    <br/>
+
+</div>
+
+<div>
+    This is second test
+    <br/>
+      
+    This is second test
+    <br/>
+      
+    This is second test
+    <br/>
+</div>
